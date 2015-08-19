@@ -501,7 +501,7 @@ function sfBreadcrumbDirective(){
 						scope.ctrl.totals = [
 							{
 								name: 'total',
-								title: 'Total',
+								title: 'Toplam',
 								fn: function (order) {
 									return order.products.reduce(function (returned, current) {
 										return returned + (current.price * current.qty);

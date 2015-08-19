@@ -1,0 +1,8 @@
+{
+  "name": "uikit",
+  "version": "0.0.1",
+  "main": "uikit.js",
+  "dependencies": {
+    "angular": "1.4.3"
+  }
+}

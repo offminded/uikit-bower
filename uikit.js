@@ -911,7 +911,6 @@ function sfOrderSummaryDirective($mdTheming){
 	return {
 		restrict: 'E',
 		transclude: true,
-		bindToController: true,
 		templateUrl: 'app/components/orderSummary/orderSummary.tmpl.html',
 		controller: function(){},
 		controllerAs: 'ctrl',
